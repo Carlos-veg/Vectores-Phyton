@@ -1,0 +1,127 @@
+lista_vacia = []
+
+
+
+lista = [1, 2, 3, 4, 5, 6]
+
+
+
+longitud_lista_vacia = len(lista_vacia)
+
+longitud_lista = len(lista)
+
+
+
+elemento_buscado = 3
+
+if elemento_buscado in lista:
+
+    print(f"El elemento {elemento_buscado} se encuentra en el lista.")
+
+else:
+
+    print(f"El elemento {elemento_buscado} no se encuentra en el lista.")
+
+
+
+lista.sort()
+
+print(f"Lista ordenado: {lista}")
+
+
+
+primer_elemento = lista[0]
+
+elemento_central = lista[len(lista) // 2]
+
+ultimo_elemento = lista[-1]
+
+
+
+Datos_personales = []
+
+Datos_personales.append("Carlos Vega Colon")
+
+Datos_personales.append("38")
+
+Datos_personales.append("1.82")
+
+Datos_personales.append("Union Libre")
+
+Datos_personales.append("Vista Hermosa")
+
+print(Datos_personales) 
+
+
+
+it_companies = ["Facebook", "Google", "Microsoft", "Apple", "IBM", "Oracle", "Amazon"]
+
+print(f"Empresa")
+
+print(it_companies) 
+
+
+
+it_companies.pop(0)
+
+print(f"Primer empresa eliminada usando pop")
+
+print(it_companies) 
+
+
+
+del it_companies[4]
+
+print(f"Cuarto empresa eliminada usando del")
+
+print(it_companies)
+
+
+
+it_companies.insert(0, "Xiaomi")
+
+print(f"Insertar empresa Xiaomi")
+
+
+
+empresa = "Xiaomi"
+
+if empresa in it_companies:
+
+    print(f"{empresa} existe en la lista it_companies")
+
+else:
+
+    print(f"{empresa} no existe en la lista it_companies")
+
+
+
+
+
+it_companies.sort()
+
+print(f"Organizar empresas en orden alfabetico")
+
+
+
+print(it_companies) 
+
+
+
+
+
+it_companies.reverse() 
+
+print(f"Organizar empresas en reversa")
+
+print(it_companies) 
+
+
+
+
+
+it_companies.pop()
+
+print(f"Eliminar todas las empresas")
+
+print(it_companies) 
